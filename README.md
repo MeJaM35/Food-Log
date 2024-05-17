@@ -30,7 +30,3 @@ Navigate to your application directory and start the Rails server with:
 ```sh
 rails server
 ```
-
----
-
-Feel free to adjust the headings and descriptions as needed for your specific project.

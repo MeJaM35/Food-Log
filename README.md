@@ -1,24 +1,36 @@
-# README
+# Food Logger
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Installation
 
-Things you may want to cover:
+### Install Ruby
 
-* Ruby version
+- **For Windows:** [RubyInstaller](https://rubyinstaller.org)
+- **For Linux:** [Ruby Installation Guide](https://www.ruby-lang.org/en/documentation/installation/)
 
-* System dependencies
+### Install Rails
 
-* Configuration
+To install Rails, run the following command:
 
-* Database creation
+```sh
+gem install rails
+```
 
-* Database initialization
+## Creating a New Rails App
 
-* How to run the test suite
+To create a new Rails application, use the following command, replacing `<app-name>` with your desired application name:
 
-* Services (job queues, cache servers, search engines, etc.)
+```sh
+rails new <app-name>
+```
 
-* Deployment instructions
+## Starting the Rails Server
 
-* ...
+Navigate to your application directory and start the Rails server with:
+
+```sh
+rails server
+```
+
+---
+
+Feel free to adjust the headings and descriptions as needed for your specific project.

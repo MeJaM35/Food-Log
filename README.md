@@ -30,3 +30,30 @@ Navigate to your application directory and start the Rails server with:
 ```sh
 rails server
 ```
+
+## Creating a New Table in Rails
+
+### Using Rails Model
+
+To create a new model, use the following command, replacing `<model-name>` with your desired model name:
+
+```sh
+rails generate model <model-name>
+```
+
+### Using Rails Scaffold (Not Recommended)
+
+To create a new scaffold, use the following command, replacing `<model-name>` with your desired model name:
+
+```sh
+rails generate scaffold <model-name>
+```
+
+## Migrating the Database
+
+To apply the migrations and update the database schema, use the following command:
+
+```sh
+rails db:migrate
+```
+

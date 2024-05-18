@@ -19,13 +19,17 @@
 
   <div class="container">
 
+    <% if content_for(:title)%>
+    <%= yield :title %>
+    <% end %>
+
 
     <% if notice.present? %>
-    <div class="notification is-link is-light"> <% notice %> </div>
+    <div class="notification is-link is-light has-text-dark"> <% notice %> </div>
     <% end %>
 
     <% if alert.present? %>
-    <div class="notification is-danger is-light"><% notice %> </div>
+    <div class="notification is-danger is-light has-text-dark"><% notice %> </div>
     <% end %>
 
     <%= yield %>
